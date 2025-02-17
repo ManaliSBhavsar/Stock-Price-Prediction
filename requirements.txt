@@ -1,3 +1,6 @@
-Predict the stock market price. There are so many factors involved in the prediction – physical factors vs. psychological, rational and irrational behavior, etc. All these aspects combine to make share prices volatile and very difficult to predict with a high degree of accuracy.
-
-The aim is to predict the future stock prices using the data from ‘N’ days. This dataset will be evaluated for better predictions using Natural Language Processing[NLP] and Machine Learning Techniques with Python to predict the future stock prices with high degree of accuracy.
+numpy==2.2.3
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.1
+six==1.17.0
+tzdata==2025.1
