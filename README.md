@@ -9,11 +9,17 @@ Using a Stock data set for a company which has date, opening rate, high rate, lo
 
 # Implementation:
 Collect the dataset (from Quandl), load the dataset and define the target variable for the problem.
+
 Plotting the graph of the existing data using plotlib.
+
 The profit or loss calculation is usually determined by the closing price of a stock for the day, hence considering the closing price as the target variable.
+
 Using the moving average technique which uses the latest set of values for each prediction. For each subsequent step, the predicted values are taken into consideration while removing the oldest observed value from the set.
+
 Create a data frame that contains only the Date and Close price columns, then split it into train and validation sets to verify our predictions.
+
 Create predictions for the validation set and check the RMSE using the actual values.
+
 Plot the predicted values along with the actual values.
 
 # Result:
